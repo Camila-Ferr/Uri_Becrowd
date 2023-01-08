@@ -29,7 +29,7 @@ func main() {
 	for actual < cases {
 		
 		fmt.Scanf("%d", &cardinal)
-    	bin:= cardinal.Text(2)
+		bin:= cardinal.Text(2)
 		count(bin)
 		actual += 1
 	}
