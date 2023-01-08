@@ -13,7 +13,7 @@ func main() {
     } else if (secondNumber > firstNumber) && (secondNumber%firstNumber == 0){
         fmt.Println("Sao Multiplos")
     } else{
-     fmt.Println("Nao sao Multiplos")
+        fmt.Println("Nao sao Multiplos")
     }
 
 }
