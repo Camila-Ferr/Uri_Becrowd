@@ -21,14 +21,15 @@ func count(bin string) {
 
 func main() {
 	var cases, actual int
-  var cardinal big.Int
+  	var cardinal big.Int
+	
 	fmt.Scanf("%d", &cases)
 	actual = 0
 
 	for actual < cases {
-
+		
 		fmt.Scanf("%d", &cardinal)
-    bin:= cardinal.Text(2)
+    	bin:= cardinal.Text(2)
 		count(bin)
 		actual += 1
 	}
